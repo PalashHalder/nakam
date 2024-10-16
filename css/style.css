@@ -1,0 +1,90 @@
+/* ========== Common CSS Start ========== */
+a{ text-decoration: none;}
+
+body{
+    overflow-x: hidden;
+}
+/* ========== Common CSS Start ========== */
+
+/* ========== nav section start ========== */
+
+nav .navbar-nav{
+    gap: 58px;
+}
+
+nav li.nav-item{
+    margin-top: 5px;
+}
+
+/* ========== banner section start ========== */
+#banner{
+    margin-top: 115px;
+}
+#banner img{
+    width: 139%;
+    position: relative;
+    top: -124px;
+    left: -70px;
+    z-index: -1;
+}
+
+#banner h1{
+    font-family: "Josefin Sans", serif;
+    font-size: 64px;
+    font-weight: 600;
+    width: 575.21px;
+}
+
+#banner p{
+    font-family: "Josefin Sans", serif;
+    font-size: 24px;
+    font-weight: 600;
+    max-width: 467px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+#banner a{
+    display: inline-block;
+    font-family: "Josefin Sans", serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 16px 47px;
+    background: #FF5A2F;
+    color: #FFFFFF;
+    border-radius: 15px;
+    
+}
+
+
+
+
+/* ========== banner section end ========== */
+
+/* .navbar-expand-lg .navbar-nav{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1E1E1E;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+} */
+
+/* ========== nav section end ========== */
+
+
+
+/* ========== dishes section start ========== */
+/* ========== dishes section end ========== */
+
+
+/* ========== dishes section start ========== */
+/* .item{
+    width: 100%;
+    height: 300px;
+    background: red;
+    margin-top: 24px;
+} */
+/* ========== dishes section end ========== */
+/* ========== dishes section end ========== */

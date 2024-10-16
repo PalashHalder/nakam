@@ -1,0 +1,112 @@
+
+/* ========== Navbar Responsive Start ========== */
+@media (max-width:1199px){
+    nav .navbar-nav {
+        gap: 5px;
+    }
+
+    img.cart{
+        margin-top: 5px;
+    }
+    
+    #navbarSupportedContent {
+        border-radius: 5px;
+        background: seashell;
+        padding: 15px;
+    }
+}
+
+/* ========== Navbbar Responsive End ========== */
+/* ========== Banner Section Responsive start ========== */
+@media (max-width: 575px){
+    #banner{
+        margin-top: 55px;
+    }
+    #banner h1{
+        font-size: 40px;
+        width: 348.21px;
+    }
+    
+    #banner p{
+        margin-top: 15px;
+        margin-bottom: 25px;
+        width: 310px;
+    }
+
+    #banner a{
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+
+    #banner img{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    #banner{
+        margin-top: 55px;
+        text-align: center;
+    }
+    #banner h1{
+        font-size: 40px;
+        width: 385.21px;
+        margin: 0 auto; 
+    }
+    
+    #banner p{
+        width: 438px;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    #banner a{
+        font-size: 20px;
+        padding: 10px 30px;
+        
+    }
+
+    #banner img{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    #banner{
+        margin-top: 55px;
+    }
+    #banner h1{
+        font-size: 40px;
+        width: 348.21px;
+    }
+    
+    #banner p{
+        margin-top: 15px;
+        margin-bottom: 25px;
+        width: 310px;
+    }
+
+    #banner a{
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+}
+/* ========== Banner Section Responsive End ========== */
+
+
+
+/* ========== Navbbar Responsive End ========== */
+/* ========== Navbbar Responsive End ========== */
+/* ========== Navbbar Responsive End ========== */
+/* ========== Navbbar Responsive End ========== */
+/* ========== Navbbar Responsive End ========== */
+/* ========== Navbbar Responsive End ========== */
+/* ========== Navbbar Responsive End ========== */
+
+/* ========== Common CSS Start ========== */
+/* ========== Common CSS Start ========== */
+
+
+
+
