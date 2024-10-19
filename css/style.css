@@ -3,6 +3,7 @@ a{ text-decoration: none;}
 
 body{
     overflow-x: hidden;
+    font-family: "Josefin Sans", serif;
 }
 /* ========== Common CSS Start ========== */
 
@@ -18,7 +19,7 @@ nav li.nav-item{
 
 /* ========== banner section start ========== */
 #banner{
-    margin-top: 115px;
+    margin-top: 85px;
 }
 #banner img{
     width: 139%;
@@ -52,39 +53,184 @@ nav li.nav-item{
     padding: 16px 47px;
     background: #FF5A2F;
     color: #FFFFFF;
-    border-radius: 15px;
+    border-radius: 15px;   
+}
+/* ========== banner section end ========== */
+
+/* ========== about section start ========== */
+
+
+
+#about{
+    margin-top: -200px;
+}
+
+#about img{
+    width: 100%;
+}
+
+#about .one{
+    margin-top: 25px;
+}
+
+#about .three{
+    width: 160px;
+    margin-top: 20px;
+}
+
+
+element {
+	padding-left: 75px;
+}
+
+#about .about-us{
+    color: #FF5A2F;
+    font-size: 37px;
+    font-family: "Josefin Sans", serif;
+    margin-bottom: 15px;
+}
+
+#about h1{
+    font-family: "Josefin Sans", serif;
+    font-size: 50px;
+    font-weight: 400;
+    max-width: 516px;
+}
+
+#about p{
+    font-family: "Josefin Sans", serif;
+    font-size: 22px;
+    font-weight: 400;
+    max-width: 467px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#about a{
+    display: inline-block;
+    font-family: "Josefin Sans", serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 16px 47px;
+    background: #FF5A2F;
+    color: #FFFFFF;
+    border-radius: 15px;   
+}
+/* ========== about section start ========== */
+/* ========== dishes section start ========== */
+#dishes{
+    margin-top: 150px;
+    padding-top: 40px;
+}
+
+#dishes .top-title{
+    color: #FF724C;
+    font-family: "Josefin Sans";
+    font-size: 37px;
+}
+
+#dishes h2{
+    margin-top: 25px;
+    color: #1E1E1E;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.62px;
+    margin-bottom: 60px;
+}
+#dishes .item{
+    text-align: center;
+    padding: 53px 33px 33px 33px;
+    margin-top: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 30px 80px 0px rgba(107, 107, 107, 0.25);
+    border-radius: 25px;
+}
+
+#dishes .item img{
+    width: 100%;
+    /* border-radius: 50%; */
+}
+
+#dishes .item h3{
+    color: #2A2C41;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 27px;
+}
+
+#dishes .item p{
+    color: #2A2C41;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+#dishes .item .price{
+    color: #FF6840;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* ========== dishes section end ========== */
+
+
+
+/* ========== services section start ========== */
+#services{
+    margin-left: 200px;
+    margin-right: 100px;
+}
+#services .row{
+    margin: 0 50px;
+    text-align: center;
+    display: flex;
+}
+
+#services .service-top{
+    margin-top: 150px;
+    color: #FF724C;
+    text-align: center;
+    font-size: 37px;
+}
+
+#services h2{
+    width: 602px;
+    color: #1E1E1E;
+    text-align: center;
+    font-size: 54px;
+    font-weight: 500;
+    letter-spacing: 2.7px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+#services .item{
+    text-align: center;
+    margin-top: 24px;
+    justify-items: space-around;
+    gap: 100px;
     
+
+}
+
+#services svg{
+    width: 74px;
+    height: 81px;
+    justify-content: space-between;
+}
+
+#services p{
+    margin-top: 25px;
 }
 
 
 
 
-/* ========== banner section end ========== */
+/* ========== services section end ========== */
 
-/* .navbar-expand-lg .navbar-nav{
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    color: #1E1E1E;
-    padding: 0;
-    padding-left: 0;
-    padding-right: 0;
-} */
-
-/* ========== nav section end ========== */
-
-
-
-/* ========== dishes section start ========== */
-/* ========== dishes section end ========== */
-
-
-/* ========== dishes section start ========== */
-/* .item{
-    width: 100%;
-    height: 300px;
-    background: red;
-    margin-top: 24px;
-} */
 /* ========== dishes section end ========== */
 /* ========== dishes section end ========== */

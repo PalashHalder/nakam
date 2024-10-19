@@ -94,12 +94,113 @@
 }
 /* ========== Banner Section Responsive End ========== */
 
+/* ========== About Responsive Start ========== */
+
+@media (min-width: 375px) and (max-width: 767px){
+    #about {
+        margin-top: 50px;
+        text-align: center;
+    }
+    #about .one{
+    display: none;
+   }
+   #about .two{
+    display: none;
+   }
+   #about .three{
+    display: none;
+   }
+   #about h1{
+    font-size: 34px;
+   }
+
+  
 
 
-/* ========== Navbbar Responsive End ========== */
-/* ========== Navbbar Responsive End ========== */
-/* ========== Navbbar Responsive End ========== */
-/* ========== Navbbar Responsive End ========== */
+}
+
+@media (min-width:768px) and (max-width: 991px){
+    #about {
+        margin-top: -70px;
+    }
+
+    #about .one .three{
+        width: 50%;
+    }
+
+    #about .two{
+        width: 170%;
+    }
+
+    #about h1{
+        font-size: 40px;
+        line-height: 47px;
+
+    }
+
+    #about .about-us{
+        font-size: 24px;
+    }
+
+    #about p{
+        font-size: 20px;
+    }
+
+    .col-md-7 {
+        flex: 0 0 auto;
+        width: 58.333333%;
+        padding-left: 92px;
+    }
+
+    #about a{
+        font-size: 20px;
+        padding: 10px 30px;
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .col-md-7 {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+        padding-left: 54px;
+    }
+}
+/* ========== About Responsive End ========== */
+
+/* ========== Card Responsive Srtat ========== */
+@media (min-width: 375px) and (max-width: 767px){
+    #dishes {
+        margin-top: 30px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    #dishes h2{
+        margin-top: 30px;
+        font-size: 44px;
+        margin-bottom: 25px;
+    }
+   
+}
+
+@media (min-width:768px) and (max-width: 991px){
+   #dishes{
+    margin-top: 30px;
+   }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+    #dishes {
+        margin-top: 30px;
+    }
+}
+
+/* ========== Card Responsive End ========== */
+
+
+
 /* ========== Navbbar Responsive End ========== */
 /* ========== Navbbar Responsive End ========== */
 /* ========== Navbbar Responsive End ========== */
