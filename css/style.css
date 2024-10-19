@@ -235,11 +235,62 @@ element {
     margin-top: 20px;
     
 }
-
-
-
-
 /* ========== services section end ========== */
+/* ========== teams section start ========== */
+
+#teams{
+    margin-top: 150px;
+}
+
+#teams .row{
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+#teams p{
+    color: #FF724C;
+    font-size: 37px;
+    font-weight: 400;
+}
+
+#teams h2{
+    color: #1E1E1E;
+    text-align: left;
+    font-size: 54px;
+    font-weight: 500;
+    letter-spacing: 2.7px;
+}
+
+#teams .row .angle-left{
+    margin-right: 50px;
+}
+
+#teams .shef-card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+#teams img{
+    z-index: 9990;
+    position: relative;
+}
+
+#teams .shef-card p{
+    text-align: center;
+    padding: 26px 76px;
+    background: #FFFFFF;
+    margin-top: -100px;
+    z-index: 9991;
+    position: absolute;
+    color: #2A2C41;
+    font-size: 32px;
+
+}
+
+/* ========== teams section end ========== */
+
+
 
 /* ========== dishes section end ========== */
 /* ========== dishes section end ========== */

@@ -228,6 +228,29 @@
     }
 }
 /* ========== Services Responsive End ========== */
+/* ========== Teams Responsive Start ========== */
+@media (min-width: 375px) and (max-width:  767px){
+    #teams span{
+        display: none;
+    }
+
+    #teams p{
+        font-size: 24px;
+    }
+
+    @media (min-width: 768px) and (max-width:  991px){
+        #teams span{
+            display: none;
+        }
+}
+}
+/* ========== Teams Responsive End ========== */
+
+
+
+/* ========== Navbbar Responsive End ========== */
+/* ========== Navbbar Responsive End ========== */
+/* ========== Navbbar Responsive End ========== */
 /* ========== Navbbar Responsive End ========== */
 
 /* ========== Common CSS Start ========== */
