@@ -198,11 +198,36 @@
 }
 
 /* ========== Card Responsive End ========== */
+/* ========== Services Responsive Start ========== */
+@media (min-width: 375px) and (max-width: 575px){
+    #services .service-top {
+        margin-top: 94px;
+        color: #FF724C;
+        text-align: center;
+        font-size: 30px;
+    }
 
+    #services h2 {
+        width: 382px;
+        font-size: 33px; 
+        margin-bottom: 40px;    
+    }
 
+    #services .row{
+        grid-template-columns: auto ;
+    }
+}
 
-/* ========== Navbbar Responsive End ========== */
-/* ========== Navbbar Responsive End ========== */
+@media (min-width: 576px) and (max-width: 991px){
+    #services .row{
+        grid-template-columns: auto auto ;
+    }
+
+    #services h2 {
+        width: 592px;
+    }
+}
+/* ========== Services Responsive End ========== */
 /* ========== Navbbar Responsive End ========== */
 
 /* ========== Common CSS Start ========== */

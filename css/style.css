@@ -179,14 +179,14 @@ element {
 
 
 /* ========== services section start ========== */
-#services{
+/* #services{
     margin-left: 200px;
     margin-right: 100px;
-}
+} */
 #services .row{
-    margin: 0 50px;
     text-align: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
 }
 
 #services .service-top{
@@ -211,20 +211,29 @@ element {
 #services .item{
     text-align: center;
     margin-top: 24px;
-    justify-items: space-around;
-    gap: 100px;
-    
+    border: 1px solid #FF5A2F;
+    padding: 25px 45px 15px 45px;
+}
 
+#services .item:hover{
+    background: rgba(248, 78, 26, 0.5);
+    color: #FFFFFF;
+    transition: ease-in-out;
+    
 }
 
 #services svg{
     width: 74px;
     height: 81px;
-    justify-content: space-between;
 }
 
-#services p{
-    margin-top: 25px;
+
+#services .row p{
+    color: #2A2C41;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+    
 }
 
 
